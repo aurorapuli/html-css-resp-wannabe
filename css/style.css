@@ -136,3 +136,15 @@ img {
     margin: 0;
   }
 }
+
+/* mobile version */
+
+@media all and  (max-width:480px){
+    .row{
+        display: block;
+    }
+
+    .lessons .col, .steps .col,.why-us .col-left,.why-us .col-right{
+        width: 100%;
+    } 
+} 
